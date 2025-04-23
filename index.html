@@ -36,33 +36,34 @@
             border-bottom: 1px solid #eee;
             padding: 1.5rem 0;
         }
-        .work-item:last-child {
-            border: none;
-        }
         .work-title {
             font-size: 1.5rem;
             margin: 0 0 0.5rem 0;
+        }
+        video {
+            width: 100%;
+            border-radius: 12px;
+            margin-top: 1rem;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Culi</h1>
-        <p>Culi的作品展示 </p>
+        <p>這是我的作品集網站，歡迎參觀！</p>
     </header>
     <main class="works">
         <div class="work-item">
             <h2 class="work-title">作品名稱 A</h2>
-             <p>
-                <video controls width="80%">
-                 <source src="video.mp4" type="video/mp4">
-                 您的瀏覽器不支援影片播放。
-                </video>
-             </p>
+            <p>這裡是作品 A 的簡短介紹，可以加上連結、圖片等等。</p>
         </div>
         <div class="work-item">
-            <h2 class="work-title">作品名稱 B</h2>
-            <p>這裡是作品 B 的簡短介紹，可以加上連結、圖片等等。</p>
+            <h2 class="work-title">影片展示</h2>
+            <p>以下是我的影片作品：</p>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                您的瀏覽器不支援影片播放。
+            </video>
         </div>
     </main>
 </body>
